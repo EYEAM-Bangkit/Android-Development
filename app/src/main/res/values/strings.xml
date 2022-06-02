@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EYEAM</string>
+    <string name="title_home">Home</string>
+    <string name="title_camerax">Camera</string>
+    <string name="title_profile">Profile</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="username">Username</string>
+    <string name="search">Search Animal Here...</string>
+    <string name="gambar_cari">gambar cari</string>
+    <string name="popular_animal">Popular Animal</string>
+    <string name="news">Animal News</string>
+    <string name="image_news">Image News</string>
+    <string name="name">Name</string>
+    <string name="date">Date</string>
+    <string name="cameraX">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="unggah">Go!</string>
+</resources>

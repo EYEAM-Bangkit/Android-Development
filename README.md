@@ -1,2 +1,2 @@
-# Android-Development
-AD part of EYEAM project.
+# EYEAM
+Capstone Project
