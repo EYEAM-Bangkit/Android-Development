@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "60656864985",
+    "project_id": "eyeam-614a0",
+    "storage_bucket": "eyeam-614a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60656864985:android:587e511d4dc0379ab138c8",
+        "android_client_info": {
+          "package_name": "com.slyvii.eyeam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60656864985-hdt08u8vtrfasm1jusis09muvmq59b82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNVSYl7sjM3WVHTZIFdx3t95edq7z61s8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60656864985-hdt08u8vtrfasm1jusis09muvmq59b82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
