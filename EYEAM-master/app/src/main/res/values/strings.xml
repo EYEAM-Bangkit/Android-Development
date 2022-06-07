@@ -53,4 +53,6 @@
     <string name="isi_population">Isi</string>
     <string name="iucn_stats">IUCN Stats</string>
     <string name="isi_iucn">Isi</string>
+    <string name="confirm_pass">Password Confirmation</string>
+    <string name="already_have_an_account">Have an Account?</string>
 </resources>
