@@ -1,2 +1,0 @@
-# EYEAM
-Capstone Project
