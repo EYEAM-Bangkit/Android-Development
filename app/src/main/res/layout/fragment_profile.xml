@@ -1,22 +1,196 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.profile.ProfileFragment">
+    android:layout_marginBottom="50dp"
+    android:background="?attr/colorOnPrimary">
 
-    <TextView
-        android:id="@+id/text_notifications"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="?attr/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="19dp"
+                android:text="@string/me"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_me"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="3dp"
+                android:text="@string/username"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/layout_language"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:elevation="20dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/language"
+                android:src="@drawable/ic_language" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="60dp"
+                android:text="@string/language"
+                android:textColor="?attr/colorOnSecondary"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/layout_mode"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:elevation="20dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_language">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/dark_mode"
+                android:src="@drawable/ic_dark_mode" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="60dp"
+                android:text="@string/dark_mode"
+                android:textColor="?attr/colorOnSecondary"
+                android:textSize="20sp" />
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginEnd="10dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/layout_history"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:elevation="20dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_mode">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/history"
+                android:src="@drawable/ic_history" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="60dp"
+                android:text="@string/history"
+                android:textColor="?attr/colorOnSecondary"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/layout_about_us"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:elevation="20dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_history">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:contentDescription="@string/about_us"
+                android:src="@drawable/ic_pet" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="60dp"
+                android:text="@string/about_us"
+                android:textColor="?attr/colorOnSecondary"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_logout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/radius"
+            android:backgroundTint="@color/red"
+            android:text="@string/logout"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_about_us" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

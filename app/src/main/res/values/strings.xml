@@ -4,15 +4,66 @@
     <string name="title_camerax">Camera</string>
     <string name="title_profile">Profile</string>
     <string name="welcome_back">Welcome Back!</string>
-    <string name="username">Username</string>
+    <string name="username" translatable="false">Username</string>
     <string name="search">Search Animal Here...</string>
-    <string name="gambar_cari">gambar cari</string>
+    <string name="gambar_cari" translatable="false">gambar cari</string>
     <string name="popular_animal">Popular Animal</string>
     <string name="news">Animal News</string>
-    <string name="image_news">Image News</string>
+    <string name="image_news" translatable="false">Image News</string>
     <string name="name">Name</string>
     <string name="date">Date</string>
     <string name="cameraX">Camera</string>
     <string name="gallery">Gallery</string>
-    <string name="unggah">Go!</string>
+    <string name="unggah" translatable="false">Go!</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="do_you_have_an_account">Already Have an Account?\t\t</string>
+    <string name="sign_up">Sign Up!</string>
+    <string name="registration">Register</string>
+    <string name="your_profile">Profile</string>
+    <string name="me">Me</string>
+    <string name="language">Language</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="history">History</string>
+    <string name="logout">Logout</string>
+    <string name="about_us">About Us</string>
+    <string name="nama_populer" translatable="false">Nama Populer</string>
+    <string name="nama_ilmiah" translatable="false">Nama Ilmiah</string>
+    <string name="image_of_species">Image of Species</string>
+    <string name="taxonomy">Taxonomy</string>
+    <string name="kingdom">Kingdom</string>
+    <string name="phylum">Phylum</string>
+    <string name="genus" translatable="false">Genus</string>
+    <string name="klas">Class</string>
+    <string name="order">Order</string>
+    <string name="family">Family</string>
+    <string name="deskripsi">Description</string>
+    <string name="isi_deskripsi" translatable="false">Isi</string>
+    <string name="persebaran">Spread</string>
+    <string name="isi_persebaran" translatable="false">Isi</string>
+    <string name="habitat" translatable="false">Habitat</string>
+    <string name="isi_habitat" translatable="false">Isi</string>
+    <string name="isi_conserv" translatable="false">Isi</string>
+    <string name="conserv">Conservation Action</string>
+    <string name="threats">Threats</string>
+    <string name="isi_threats" translatable="false">Isi</string>
+    <string name="population">Population</string>
+    <string name="isi_population" translatable="false">Isi</string>
+    <string name="iucn_stats">IUCN Stats</string>
+    <string name="isi_iucn" translatable="false">Isi</string>
+    <string name="confirm_pass">Password Confirmation</string>
+    <string name="already_have_an_account">Have an Account?</string>
+    <string name="error">An Error Occurred!</string>
+    <string name="select_image">Please Select an Image First!</string>
+    <string name="success">Successful!</string>
+    <string name="no_animal_found">No animal found!</string>
+    <string name="fill_form">Please fill all the required forms!</string>
+    <string name="pass_confirmation">Password must be same as confirmation</string>
+    <string name="register_success">Register success!</string>
+    <string name="double_back">"Please click BACK again to exit"</string>
+    <string name="detail">Details</string>
+    <string name="about" translatable="false">EYEAM App\nEye of Endangered Animals\nEYEAM Team | C22-PS105 - Bangkit Academy</string>
+    <string name="us" translatable="false">Yosua Sintikhe Lukas (M2320G2795)\nValentino Rizky (M2014K1366)\nMuhammad Ilham Hanifan (C2009F0984)\nIqbal Khariza (C2009F0920)\nStefanny (A2014K1362)\nLucky Ananda Pramudia (A2320N2796)</string>
 </resources>

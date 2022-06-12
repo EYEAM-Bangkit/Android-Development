@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:contentDescription="@string/image_news"
         android:scaleType="centerCrop"
-        android:src="@color/black" />
+        android:src="?attr/colorOnSecondary" />
 
     <TextView
         android:id="@+id/tv_title_news"
@@ -27,7 +27,7 @@
         android:gravity="center_vertical"
         android:maxLines="2"
         android:text="@string/name"
-        android:textColor="@color/black"
+        android:textColor="?attr/colorOnSecondary"
         android:textSize="16sp" />
 
     <TextView

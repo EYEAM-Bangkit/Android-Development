@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EYEAM</string>
+    <string name="title_camerax">Kamera</string>
+    <string name="title_profile">Profil</string>
+    <string name="welcome_back">Selamat Datang Kembali!</string>
+    <string name="search">Cari Hewan...</string>
+    <string name="popular_animal">Hewan Populer</string>
+    <string name="news">Berita Hewan</string>
+    <string name="name">Nama</string>
+    <string name="date">Tanggal</string>
+    <string name="cameraX">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="password">Kata Sandi</string>
+    <string name="sign_in">Masuk</string>
+    <string name="do_you_have_an_account">Sudah Memiliki Akun?</string>
+    <string name="sign_up">Daftar!</string>
+    <string name="registration">Registrasi</string>
+    <string name="your_profile">Profil</string>
+    <string name="me">Saya</string>
+    <string name="language">Bahasa</string>
+    <string name="dark_mode">Mode Gelap</string>
+    <string name="history">Riwayat</string>
+    <string name="logout">Keluar</string>
+    <string name="about_us">Tentang Kami</string>
+    <string name="image_of_species">Gambar Spesies</string>
+    <string name="taxonomy">Taksonomi</string>
+    <string name="kingdom">Kingdom</string>
+    <string name="phylum">Filum</string>
+    <string name="order">Ordo</string>
+    <string name="klas">Kelas</string>
+    <string name="family">Famili</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="persebaran" translatable="false">Persebaran</string>
+    <string name="conserv">Aksi Konservasi</string>
+    <string name="threats">Ancaman</string>
+    <string name="population">Populasi</string>
+    <string name="iucn_stats">Statistik IUCN</string>
+    <string name="confirm_pass">Konfirmasi Password</string>
+    <string name="already_have_an_account">Sudah Memiliki Akun?</string>
+    <string name="title_home">Beranda</string>
+    <string name="error">Terjadi Kesalahan!</string>
+    <string name="select_image">Mohon Pilih Gambar Terlebih Dahulu!</string>
+    <string name="success">Sukses!</string>
+    <string name="no_animal_found">Hewan Tidak Ditemukan!</string>
+    <string name="fill_form">Mohon isi seluruh form terlebih dahulu!</string>
+    <string name="pass_confirmation">Kata sandi harus sama dengan konfirmasi</string>
+    <string name="register_success">Registrasi berhasil!</string>
+    <string name="double_back">Tekan tombol BACK sekali lagi untuk keluar</string>
+    <string name="detail">Rincian</string>
+</resources>
